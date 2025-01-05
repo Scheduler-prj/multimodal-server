@@ -35,6 +35,15 @@ Desktop.ini
 $RECYCLE.BIN/
 *.stackdump
 
+# macOS 운영 체제
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
 # PyInstaller
 *.spec
 
