@@ -1,0 +1,53 @@
+# Python 가상환경
+.venv/
+
+# Python 컴파일된 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask 관련 파일
+instance/
+.webassets-cache
+.env
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+*.cover
+*.py,cover
+
+# VSCode 설정 파일
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Windows 운영 체제
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# PyInstaller
+*.spec
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+wheels/
+
+# Logs
+*.log
+
+# Cython debug symbols
+cython_debug/
